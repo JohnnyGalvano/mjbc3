@@ -1,0 +1,32 @@
+//fuentes
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 62.5%
+}
+
+$prinFont: 'ABeeZee', sans-serif;
+$secFont: 'Overpass', sans-serif;
+$tFont1:3rem;
+$tFont2:2rem;
+$tFont3:1.5rem;
+
+
+
+
+
+//colores
+$prinColor: rgba(224, 191, 162, 0.8);
+$scndColor: #A57945;
+$keyColor: #F7E8D1;
+$btnColor: #C2A371;
+
+
+

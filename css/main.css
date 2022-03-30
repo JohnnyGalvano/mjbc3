@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+nav {
+  background-color: rgba(224, 191, 162, 0.8); }
+  nav ul li {
+    margin: 5px; }
+    nav ul li a:hover {
+      background-color: #F7E8D1;
+      color: #A57945; }
+
+.botonColor {
+  background-color: #C2A371;
+  width: 8rem; }
+  .botonColor:hover {
+    background-color: #F7E8D1;
+    color: #A57945; }
+
+#home h1 {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 3rem;
+  color: #A57945;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 10px; }
+
+#home p {
+  font-family: "Overpass", sans-serif;
+  font-size: 2rem;
+  color: #A57945;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px; }
+
+#footy h3 {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 3rem;
+  color: #A57945;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 10px; }
+
+#footy div {
+  display: flex;
+  flex-direction: row; }
+  #footy div a {
+    width: 10%;
+    max-height: 10%;
+    padding: 0;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center; }
+    #footy div a .otherIcon {
+      display: inline-block;
+      width: 100%;
+      overflow: auto;
+      text-align: center;
+      text-decoration: none;
+      padding: 0;
+      margin: 2%; }

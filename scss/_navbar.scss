@@ -1,0 +1,25 @@
+nav{
+	background-color: $prinColor;
+	ul{
+		li{	
+			margin: 5px;
+
+			a{	
+
+				&:hover{
+					background-color:$keyColor;
+					color: $scndColor;
+				}
+			}
+		}
+	}
+}
+.botonColor{
+	background-color: $btnColor;
+	width: 8rem;
+	&:hover{
+		background-color: $keyColor;
+		color:$scndColor;
+	}
+}
+

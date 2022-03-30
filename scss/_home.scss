@@ -1,0 +1,50 @@
+#home{
+	h1{
+		font-family:$prinFont;
+		font-size:$tFont1;
+		color:$scndColor;
+		font-weight: 800;
+		text-align: center;
+		margin-top: 10px;
+	}
+	p{
+		font-family:$secFont;
+		font-size: $tFont2;
+		color:$scndColor;
+		font-weight: 700;
+		text-align: center;
+		margin: 10px;
+
+	}
+}
+#footy{
+	h3{
+		font-family:$prinFont;
+		font-size:$tFont1;
+		color:$scndColor;
+		font-weight: 800;
+		text-align: center;
+		margin-top: 10px;
+	}
+	div{
+		display: flex;
+		flex-direction: row;
+		a{
+			width: 10%;
+			max-height: 10%;
+			padding: 0;
+			margin: auto;
+			justify-content: space-between;
+			text-align:center;
+			.otherIcon{
+				display: inline-block;
+				width: 100%;
+				overflow: auto;
+				text-align: center;
+				text-decoration: none;
+				padding: 0;
+				margin: 2%;
+			}
+		}
+	}
+}
