@@ -8,6 +8,9 @@
 html {
   font-size: 62.5%; }
 
+body {
+  background-color: #EDDCC8; }
+
 nav {
   background-color: rgba(224, 191, 162, 0.8); }
   nav ul li {
