@@ -1,0 +1,26 @@
+
+.tipsNav{
+	background-color: $prinColor;
+	overflow-y: scroll;
+	height: 30vh;
+	div{
+		a{
+			background-color: $btnColor;
+			font-size: $tFont3;
+			color: black;
+			&:hover{
+			color: $keyColor;
+
+		}
+
+		}
+		
+	}
+}
+
+.bTyps{
+	@extend .nosBc;
+	h3{
+		@include textos('ABeeZee', 2rem, #A57945, center);
+	}
+}

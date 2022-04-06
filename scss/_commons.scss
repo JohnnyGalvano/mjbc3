@@ -32,5 +32,13 @@ $scndColor: #A57945;
 $keyColor: #F7E8D1;
 $btnColor: #C2A371;
 
+@mixin textos($textFont, $textSize, $textColor, $textPlace){
+	font-family: $textFont;
+	font-size: $textSize;
+	color: $textColor;
+	text-align: $textPlace;
+}
+
+
 
 

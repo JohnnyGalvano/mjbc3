@@ -1,0 +1,14 @@
+.nosBc{
+	@extend #home;
+	border-style: solid;
+	border-color: $scndColor;
+	margin: 10px;
+	padding: 5px;
+}
+.nosBc1{
+	@extend .nosBc;
+	h2, h3{
+		@include textos('ABeeZee', 2rem, #A57945, center);
+	}
+
+}

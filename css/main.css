@@ -26,7 +26,7 @@ nav {
     background-color: #F7E8D1;
     color: #A57945; }
 
-#home h1 {
+#home h1, .nosBc h1, .nosBc1 h1, .bTyps h1 {
   font-family: "ABeeZee", sans-serif;
   font-size: 3rem;
   color: #A57945;
@@ -34,7 +34,7 @@ nav {
   text-align: center;
   margin-top: 10px; }
 
-#home p {
+#home p, .nosBc p, .nosBc1 p, .bTyps p {
   font-family: "Overpass", sans-serif;
   font-size: 2rem;
   color: #A57945;
@@ -68,3 +68,32 @@ nav {
       text-decoration: none;
       padding: 0;
       margin: 2%; }
+
+.nosBc, .nosBc1, .bTyps {
+  border-style: solid;
+  border-color: #A57945;
+  margin: 10px;
+  padding: 5px; }
+
+.nosBc1 h2, .nosBc1 h3 {
+  font-family: "ABeeZee";
+  font-size: 2rem;
+  color: #A57945;
+  text-align: center; }
+
+.tipsNav {
+  background-color: rgba(224, 191, 162, 0.8);
+  overflow-y: scroll;
+  height: 30vh; }
+  .tipsNav div a {
+    background-color: #C2A371;
+    font-size: 1.5rem;
+    color: black; }
+    .tipsNav div a:hover {
+      color: #F7E8D1; }
+
+.bTyps h3 {
+  font-family: "ABeeZee";
+  font-size: 2rem;
+  color: #A57945;
+  text-align: center; }
