@@ -2,7 +2,7 @@
 .tipsNav{
 	background-color: $prinColor;
 	overflow-y: scroll;
-	height: 30vh;
+	height: 40vh;
 	div{
 		a{
 			background-color: $btnColor;
@@ -24,3 +24,11 @@
 		@include textos('ABeeZee', 2rem, #A57945, center);
 	}
 }
+
+
+.textTipTitulo{
+		@include textos('Overpass', 2rem, #A57945, center);
+	}
+.textTip{
+		@include textos('Overpass', 2rem, #000000, center);
+	}

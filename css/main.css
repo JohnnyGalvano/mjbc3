@@ -2,14 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap");
 * {
   margin: 0;
-  padding: 0;
+  padding: 2px;
   box-sizing: border-box; }
 
 html {
   font-size: 62.5%; }
 
 body {
-  background-color: #EDDCC8; }
+  background-color: #EDDCC8;
+  overflow-x: hidden; }
 
 nav {
   background-color: rgba(224, 191, 162, 0.8); }
@@ -69,10 +70,22 @@ nav {
       padding: 0;
       margin: 2%; }
 
+.titProd {
+  font-family: "ABeeZee";
+  font-size: 2rem;
+  color: #A57945;
+  text-align: center; }
+
+.sloganP {
+  font-family: "ABeeZee";
+  font-size: 2rem;
+  color: #A57945;
+  text-align: center; }
+
 .nosBc, .nosBc1, .bTyps {
   border-style: solid;
   border-color: #A57945;
-  margin: 10px;
+  margin: 1px 0 1px 0;
   padding: 5px; }
 
 .nosBc1 h2, .nosBc1 h3 {
@@ -84,7 +97,7 @@ nav {
 .tipsNav {
   background-color: rgba(224, 191, 162, 0.8);
   overflow-y: scroll;
-  height: 30vh; }
+  height: 40vh; }
   .tipsNav div a {
     background-color: #C2A371;
     font-size: 1.5rem;
@@ -97,3 +110,26 @@ nav {
   font-size: 2rem;
   color: #A57945;
   text-align: center; }
+
+.textTipTitulo {
+  font-family: "Overpass";
+  font-size: 2rem;
+  color: #A57945;
+  text-align: center; }
+
+.textTip {
+  font-family: "Overpass";
+  font-size: 2rem;
+  color: #000000;
+  text-align: center; }
+
+.contactTitulo {
+  font-family: "Overpass";
+  font-size: 3rem;
+  color: #A57945;
+  text-align: center;
+  font-weight: 800;
+  margin-top: 2px; }
+
+.bgForm {
+  background-color: rgba(224, 191, 162, 0.8); }

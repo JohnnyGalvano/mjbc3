@@ -1,0 +1,12 @@
+
+.contactTitulo{
+	@include textos('Overpass', 3rem, #A57945, center);
+	font-weight: 800;
+	margin-top: 2px;
+
+}
+
+.bgForm{
+	background-color: $prinColor;
+}
+
