@@ -9,7 +9,8 @@
 			font-size: $tFont3;
 			color: black;
 			&:hover{
-			color: $keyColor;
+			color: black;
+			background-color: $keyColor;
 
 		}
 
@@ -17,7 +18,14 @@
 		
 	}
 }
-
+#bgTip3{
+	background-color: $btnColor;
+	border: none;
+	color: black;
+	&:hover{
+		background-color: $keyColor;
+	}
+}
 .bTyps{
 	@extend .nosBc;
 	h3{

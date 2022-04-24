@@ -103,7 +103,15 @@ nav {
     font-size: 1.5rem;
     color: black; }
     .tipsNav div a:hover {
-      color: #F7E8D1; }
+      color: black;
+      background-color: #F7E8D1; }
+
+#bgTip3 {
+  background-color: #C2A371;
+  border: none;
+  color: black; }
+  #bgTip3:hover {
+    background-color: #F7E8D1; }
 
 .bTyps h3 {
   font-family: "ABeeZee";
