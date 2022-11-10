@@ -60,7 +60,7 @@ const producto7 = new Producto(
     1500
 );
 const producto8 = new Producto(
-    008,
+    004,
     `Matte Blur Make Up`,
     `Base de maquillaje blur effect. Matifica el tono de la piel.`,
     2500
@@ -78,39 +78,38 @@ const listaDeProductos = [
 ]
 
 function simuladorDeTienda() {
-    let opciones = prompt (`Elija una de las siguientes opciones para continuar:
+    let opciones = prompt(`Elija una de las siguientes opciones para continuar:
                             1- Listar productos
                             2- Buscar productos
                             3- Agregar producto al catalogo`)
     switch (opciones) {
         case `1`:
-            alert (`eligio listar productos`)
+            alert(`eligio listar productos`)
             const imprimible = listaDeProductos.join(`#`)
             console.log(imprimible)
-            
+
             break;
-        case `2`: 
-            alert (`Eligio buscar producto`)
+        case `2`:
+            alert(`Eligio buscar producto`)
 
             break;
         case `3`:
-            alert (`Eligio agregar un producto al catalogo`)
-            let idNuevo = prompt (`Ingrese el ID del nnuevo producto`)
-            let nombreNuevo = prompt (`Ingrese el nombre del producto nuevo`)
-            let descripNuevo = prompt (`Ingrese descrpcion del producto nuevo`)
-            let precioNuevo = prompt (`Ingrese precio del producto`)
-            const productoNuevo = new Producto (idNuevo, nombreNuevo, descripNuevo, precioNuevo);
+            alert(`Eligio agregar un producto al catalogo`)
+            let idNuevo = prompt(`Ingrese el ID del nnuevo producto`)
+            let nombreNuevo = prompt(`Ingrese el nombre del producto nuevo`)
+            let descripNuevo = prompt(`Ingrese descrpcion del producto nuevo`)
+            let precioNuevo = prompt(`Ingrese precio del producto`)
+            const productoNuevo = new Producto(idNuevo, nombreNuevo, descripNuevo, precioNuevo);
             listaDeProductos.push(productoNuevo)
             console.log(listaDeProductos)
             break;
-        
-    
+
+
         default:
-            alert (`Ingrese una opcion valida`)
+            alert(`Ingrese una opcion valida`)
             simuladorDeTienda()
             break;
     }
-    
+
 }
 simuladorDeTienda()
-
