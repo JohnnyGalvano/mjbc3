@@ -1,4 +1,4 @@
-function registro() {
+/* function registro() {
     let usuario = prompt(`Ingresa tu nombre de ususario`)
     let contrasena = prompt(`Bienvenido ${usuario} ingresa la contraseña`);
     while (contrasena != `maquillaje`) {
@@ -112,4 +112,4 @@ function simuladorDeTienda() {
     }
 
 }
-simuladorDeTienda()
+simuladorDeTienda() */
